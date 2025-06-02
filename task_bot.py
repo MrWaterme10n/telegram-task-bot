@@ -185,7 +185,7 @@ async def done(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 
 # Запуск
-app = ApplicationBuilder().token("439615167:AAFyKrhGGd1BKPEtHUZu_WauDoRpObTyBTo").build()
+app = ApplicationBuilder().token("YOUR_TOKEN").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("add", add))
